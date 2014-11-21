@@ -1,0 +1,61 @@
+// FONTS
+
+@import url(http://i.icomoon.io/public/temp/f58e04c817/fantasia/style.css)
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700)
+
+// CONTENT RESET STYLES
+
+div, li, a, p, h1, h2, h3, h4, h5, h6, label, input, th, td
+    font-family: "Lato", "Helvetica Neue", Verdana, Arial, sans-serif
+    font-size: 10pt
+    letter-spacing: .03em
+    list-style: none outside none
+    line-height: 1.7em
+    text-decoration: none
+
+// HEADERS
+
+h1, h2, h3, h4, h5, h6
+    font-weight: 500
+    padding-bottom: .5em
+    width: 100%
+
+h1
+    font-size: 30pt
+h2
+    font-size: 20pt
+h3
+    font-size: 18pt
+h4
+    font-size: 16pt
+h5
+    font-size: 14pt  
+
+// SMALLER ELEMENTS
+
+a
+    color: $link_color
+    &:hover
+        color: lighten($link_color, 10%) !important
+        cursor: pointer
+
+.page-header
+    color: $pink
+    float: left
+    font-size: 1.5em
+    font-weight: 300
+    text-align: right
+    text-transform: uppercase
+    padding-bottom: 25px
+    strong
+        color: $black
+        float: left
+        font-weight: 400
+
+.section-header
+    line-height: 1em
+    font-size: 1.2em
+    font-weight: 300
+    text-transform: uppercase
+    color: lighten($black, 40%)
+    padding-bottom: 15px
